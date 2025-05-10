@@ -10,13 +10,15 @@ const Feature2 = () => {
               <div className="cta-accent1-bg">
                 <div className="cta-container1">
                   <div className="cta-content">
-                    <span className="thq-heading-2">
-                      Ready to kickstart your career?
-                    </span>
-                    <p className="thq-body-large">
-                      Join us for an internship or hackathon experience that
-                      will take your skills to the next level.
-                    </p>
+                   <span className="thq-heading-2">
+  Looking for More Than Just an Internship?
+</span>
+<p className="thq-body-large">
+  Join a platform where you build real apps, solve real problems, and earn recognition that actually means something.
+</p>
+
+
+
                   </div>
                   <div className="cta-actions">
                     <button
@@ -41,35 +43,44 @@ const Feature2 = () => {
                   <div className="features2-container2"></div>
                 </div>
                 <div className="features2-content">
-                  <h2 className="thq-heading-2">Feature #1</h2>
+                  <h2 className="thq-heading-2">🚀 Real Client Projects</h2>
                   <span className="thq-body-small">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Suspendisse varius enim in eros elementum tristique. Duis
-                    cursus, mi quis viverra ornare, eros dolor interdum nulla,
-                    ut commodo diam libero vitae erat.
+                    Gain hands-on experience by working on real-world projects
+                    from startups and businesses, adding strong, practical work
+                    to your portfolio from day one.
                   </span>
                 </div>
               </div>
               <div className="features2-tab-horizontal1">
                 <div className="features2-divider-container1"></div>
                 <div className="features2-content1">
-                  <h2 className="thq-heading-2">Hackathon Events</h2>
+                  <h2 className="thq-heading-2">🧠 Tech Hackathons</h2>
                   <span className="thq-body-small">
-                    Participate in our exciting hackathon events where you can
-                    showcase your skills, collaborate with other talented
-                    individuals, and win amazing prizes.
+                    Participate in competitive, skill-focused hackathons with
+                    prize pools, mentorship, and real-world challenges that push
+                    your creativity and coding limits.
                   </span>
                 </div>
               </div>
               <div className="features2-tab-horizontal2">
                 <div className="features2-divider-container2"></div>
                 <div className="features2-content2">
-                  <h2 className="thq-heading-2">Feature #3</h2>
+                  <h2 className="thq-heading-2">🎓 Certified Internships</h2>
                   <span className="thq-body-small">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Suspendisse varius enim in eros elementum tristique. Duis
-                    cursus, mi quis viverra ornare, eros dolor interdum nulla,
-                    ut commodo diam libero vitae erat.
+                    Join structured internship programs with real tasks,
+                    mentorship, and performance-based certifications that add
+                    genuine value to your resume and LinkedIn profile.
+                  </span>
+                </div>
+              </div>
+              <div className="features2-tab-horizontal2">
+                <div className="features2-divider-container2"></div>
+                <div className="features2-content2">
+                  <h2 className="thq-heading-2">💼 Hire Interns Full-Time</h2>
+                  <span className="thq-body-small">
+                    Spot top talent early and hire them directly for full-time
+                    roles—our interns are trained on real projects and ready to
+                    deliver from day one.
                   </span>
                 </div>
               </div>

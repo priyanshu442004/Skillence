@@ -4,6 +4,13 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navLinks = [
+    { name: "Home", path: "/" },
+    { name: "Internships", path: "/internship" },
+    { name: "Hackathons", path: "/hackathon" },
+    { name: "About Us", path: "/about-us" },
+    { name: "Contact Us", path: "/contact-us" },
+  ];
 
   const toggleMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -23,36 +30,15 @@ const Navbar = () => {
           {/* Navbar */}
           <div data-thq="thq-navbar-nav" className="navbar-desktop-menu">
             <nav className="navbar-links">
-              <span
-                onClick={() => navigate("/")}
-                className="thq-link thq-body-small"
-              >
-                Home
-              </span>
-              <span
-                onClick={() => navigate("/internship")}
-                className="thq-link thq-body-small"
-              >
-                Internships
-              </span>
-              <span
-                onClick={() => navigate("/hackathon")}
-                className="thq-link thq-body-small"
-              >
-                Hackathons
-              </span>
-              <span
-                onClick={() => navigate("/about-us")}
-                className="thq-link thq-body-small"
-              >
-                About Us
-              </span>
-              <span
-                onClick={() => navigate("/contact-us")}
-                className="thq-link thq-body-small"
-              >
-                Contact Us
-              </span>
+              {navLinks.map((link, index) => (
+                <span
+                  key={index}
+                  className="thq-link thq-body-small"
+                  onClick={() => navigate(link.path)}
+                >
+                  {link.name}
+                </span>
+              ))}
             </nav>
             <div className="navbar-buttons">
               <button className="navbar-action1 thq-button-animated thq-button-filled">

@@ -5,11 +5,11 @@ const Hero = () => {
     <div className="hero-column thq-section-padding thq-section-max-width">
       <div className="hero-content">
         <h1 className="hero-text thq-heading-1">
-          Unlock Your Potential with Our Internship Programs
+          Launch Your Tech Career with Real Industry Internships
         </h1>
         <p className="hero-text1 thq-body-large">
-          Join our internship programs to gain valuable experience, build your
-          skills, and kickstart your career in the tech industry.
+          Get hands-on experience by working on real client projects, earning
+          recognized certificates, and building a portfolio that gets you hired.
         </p>
       </div>
       <div className="hero-actions">

@@ -18,27 +18,36 @@ const Feature1 = () => {
                 <div className="features1-container2"></div>
               </div>
               <div className="features1-content">
-                <h2 className="thq-heading-2">Internship Opportunities</h2>
+                <h2 className="thq-heading-2">✅ Internship Opportunities</h2>
                 <span className="thq-body-small">
-                  Explore various internship opportunities in leading companies.
+                  <i>
+                    Work on real-world projects with actual clients and build a
+                    portfolio that speaks louder than your resume.
+                  </i>
                 </span>
               </div>
             </div>
             <div className="features1-tab-horizontal1">
               <div className="features1-divider-container1"></div>
               <div className="features1-content1">
-                <h2 className="thq-heading-2">Expert Mentorship</h2>
+                <h2 className="thq-heading-2">✅ Professional Certificate</h2>
                 <span className="thq-body-small">
-                  Collaborate with industry experts and mentors.
+                  <i>
+                    Earn certificates that actually reflect your
+                    skills—validated by real projects, not just attendance.
+                  </i>
                 </span>
               </div>
             </div>
             <div className="features1-tab-horizontal2">
               <div className="features1-divider-container2"></div>
               <div className="features1-content2">
-                <h2 className="thq-heading-2">Practical Experience</h2>
+                <h2 className="thq-heading-2">✅ Practical Experience</h2>
                 <span className="thq-body-small">
-                  Engage in hands-on projects to enhance your skills.
+                  <i>
+                    Skip the theory—get your hands dirty with real challenges,
+                    deadlines, and teamwork like the industry demands.
+                  </i>
                 </span>
               </div>
             </div>
