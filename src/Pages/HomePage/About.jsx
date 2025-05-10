@@ -8,13 +8,14 @@ const About = () => {
           <div className="steps-container1 thq-grid-2">
             <div className="steps-section-header">
               <h2 className="thq-heading-2">
-                Discover the Power of Our Products
+                🌟 Turn Your Learning into Real-World Action with Endless
+                Opportunities 
               </h2>
               <p className="thq-body-large">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat.
+                Ready to take the next step? Whether you're just starting out or
+                leveling up, our platform connects you with live projects,
+                industry pros, and real experience that will set you apart in
+                tech. 💻
               </p>
               <div className="steps-actions">
                 <button className="thq-button-animated thq-button-filled steps-button">
@@ -28,16 +29,16 @@ const About = () => {
                   Explore Internship Opportunities
                 </h2>
                 <span className="steps-text04 thq-body-small">
-                  Browse through a wide range of internship opportunities in
-                  various industries and locations.
+                  Work on live client projects and gain experience that truly
+                  reflects industry expectations—no fluff, just real tasks.
                 </span>
                 <label className="steps-text05 thq-heading-3">01</label>
               </div>
               <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">Participate in Hackathons</h2>
                 <span className="steps-text07 thq-body-small">
-                  Join our hackathons to showcase your skills, collaborate with
-                  other talented individuals, and win exciting prizes.
+                  Team up, build fast, and compete for recognition and rewards
+                  in our high-energy hackathon events.
                 </span>
                 <label className="steps-text08 thq-heading-3">02</label>
               </div>
@@ -46,16 +47,16 @@ const About = () => {
                   Connect with Industry Professionals
                 </h2>
                 <span className="steps-text10 thq-body-small">
-                  Network with experienced professionals in your field of
-                  interest and gain valuable insights and mentorship.
+                  Build your network with experienced mentors and recruiters who
+                  can guide and shape your career path.
                 </span>
                 <label className="steps-text11 thq-heading-3">03</label>
               </div>
               <div className="steps-container6 thq-card">
                 <h2 className="thq-heading-2">Gain Real-World Experience</h2>
                 <span className="steps-text13 thq-body-small">
-                  Get hands-on experience through internships and hackathons to
-                  enhance your skills and boost your resume.
+                  Apply your classroom learning to real deliverables, and build
+                  a portfolio that gets recruiters to say yes.
                 </span>
                 <label className="steps-text14 thq-heading-3">04</label>
               </div>

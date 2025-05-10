@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from "../assets/Logo.png";
 const Footer = () => {
   return (
     <div className="home-footer">
@@ -9,12 +9,20 @@ const Footer = () => {
             <div className="footer-newsletter">
               <img
                 alt="Company Logo"
-                src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                src={Logo}
+                width={150}
                 className="footer-image1"
               />
               <span className="thq-body-small">
-                Subscribe to our newsletter for the latest updates on new
-                features and product releases.
+                Subscribe to our newsletter for the latest updates on new{' '}
+                <b>
+
+                Internships{' '} 
+                </b>
+                   and {' '}
+                <b>
+                  Hackathons.
+                  </b>
               </span>
               <div className="footer-actions">
                 <div className="footer-form">
