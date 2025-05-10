@@ -90,7 +90,7 @@ const Career = () => {
                       </div>
                     </div>
                     <button className="pricing-button04 thq-button-outline thq-button-animated">
-                      <span className="thq-body-small">Sign Up</span>
+                      <span className="thq-body-small">Apply</span>
                     </button>
                   </div>
                   <div className="pricing-column1 thq-card">
@@ -152,7 +152,7 @@ const Career = () => {
                       </div>
                     </div>
                     <button className="pricing-button05 thq-button-animated thq-button-filled">
-                      <span className="thq-body-small">Sign Up</span>
+                      <span className="thq-body-small">Apply</span>
                     </button>
                   </div>
                   <div className="pricing-column2 thq-card">
@@ -223,7 +223,7 @@ const Career = () => {
                       </div>
                     </div>
                     <button className="pricing-button06 thq-button-animated thq-button-filled">
-                      <span className="thq-body-small">Sign Up</span>
+                      <span className="thq-body-small">Apply</span>
                     </button>
                   </div>
                 </div>
