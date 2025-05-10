@@ -193,7 +193,7 @@ const Footer = () => {
             <div className="thq-divider-horizontal"></div>
             <div className="footer-row">
               <span className="thq-body-small">
-                &amp;copy; 2023 Company. All rights reserved.
+                &copy; 2025 Skillence. All rights reserved.
               </span>
               <div className="footer-footer-links2">
                 <span className="thq-body-small">Privacy Policy</span>

@@ -7,11 +7,15 @@ const Career = () => {
               <div className="pricing-max-width thq-section-max-width">
                 <div className="pricing-section-title">
                   <span className="pricing-text thq-body-small">
-                    Choose the perfect plan for you
+                    Choose the perfect{' '}
+                    <b>
+                       CAREER {' '}
+                      </b>
+                       for you
                   </span>
                   <div className="pricing-content">
                     <h2 className="pricing-text01 thq-heading-2">
-                      Pricing plan
+                      We've got you covered!
                     </h2>
                     <p className="pricing-text02 thq-body-large">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -20,10 +24,10 @@ const Career = () => {
                 </div>
                 <div className="pricing-tabs">
                   <button className="pricing-button thq-button-animated thq-button-filled">
-                    <span className="thq-body-small">Monthly</span>
+                    <span className="thq-body-small">Choose</span>
                   </button>
                   <button className="pricing-button03 thq-button-outline thq-button-animated">
-                    <span className="thq-body-small">Yearly</span>
+                    <span className="thq-body-small">From below</span>
                   </button>
                 </div>
                 <div className="pricing-content1">
@@ -31,10 +35,10 @@ const Career = () => {
                     <div className="pricing-price">
                       <div className="pricing-price01">
                         <p className="pricing-text07 thq-body-large">
-                          Basic plan
+                        🧑‍💻 Internship
                         </p>
-                        <h3 className="pricing-text08 thq-heading-3">$99</h3>
-                        <p className="thq-body-large">$999</p>
+                        <h3 className="pricing-text08 thq-heading-3">Get your slot</h3>
+                        <p className="thq-body-large">*with/without full time opportunity</p>
                       </div>
                       <div className="pricing-list">
                         <div className="pricing-list-item">
@@ -56,7 +60,9 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            Participation in hackathons
+                            Access to real projects
+
+
                           </span>
                         </div>
                         <div className="pricing-list-item02">
@@ -67,7 +73,18 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            Resume building workshops
+                            Industry-level experience
+                          </span>
+                        </div>
+                        <div className="pricing-list-item02">
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="thq-icon-small"
+                          >
+                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                          </svg>
+                          <span className="thq-body-small">
+                            Professional certification
                           </span>
                         </div>
                       </div>
@@ -80,10 +97,10 @@ const Career = () => {
                     <div className="pricing-price02">
                       <div className="pricing-price03">
                         <p className="pricing-text14 thq-body-large">
-                          Business plan
+                        🚀 Hackathon
                         </p>
-                        <h3 className="pricing-text15 thq-heading-3">$149</h3>
-                        <p className="thq-body-large">$1499</p>
+                        <h3 className="pricing-text15 thq-heading-3">Lets Compete </h3>
+                        <p className="thq-body-large">Enhances your resume score</p>
                       </div>
                       <div className="pricing-list1">
                         <div className="pricing-list-item03">
@@ -94,7 +111,9 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            All features of Plan 1
+                            Win cash prizes
+
+
                           </span>
                         </div>
                         <div className="pricing-list-item04">
@@ -116,7 +135,7 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            Mock interview sessions
+                            Team collaboration
                           </span>
                         </div>
                         <div className="pricing-list-item06">
@@ -127,7 +146,7 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            Feature text goes here
+                            Show off skills
                           </span>
                         </div>
                       </div>
@@ -140,10 +159,10 @@ const Career = () => {
                     <div className="pricing-price04">
                       <div className="pricing-price05">
                         <p className="pricing-text22 thq-body-large">
-                          Enterprise plan
+                          🎯 Interview Practice (1:1 with Experts)
                         </p>
-                        <h3 className="pricing-text23 thq-heading-3">$199</h3>
-                        <p className="thq-body-large">$1999</p>
+                        <h3 className="pricing-text23 thq-heading-3">₹19</h3>
+                        <p className="thq-body-large">Practice real time interviews</p>
                       </div>
                       <div className="pricing-list2">
                         <div className="pricing-list-item07">
@@ -154,7 +173,7 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            All features of Plan 2
+                           Real-time mock interviews
                           </span>
                         </div>
                         <div className="pricing-list-item08">
@@ -165,7 +184,7 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            Personalized career coaching
+                           Personalized feedback
                           </span>
                         </div>
                         <div className="pricing-list-item09">
@@ -176,7 +195,7 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            Priority access to job openings
+                            Resume-based questions
                           </span>
                         </div>
                         <div className="pricing-list-item10">
@@ -187,7 +206,7 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            Feature text goes here
+                            Boost communication skills
                           </span>
                         </div>
                         <div className="pricing-list-item11">
@@ -198,7 +217,7 @@ const Career = () => {
                             <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                           </svg>
                           <span className="thq-body-small">
-                            Feature text goes here
+                            Full time opportunity
                           </span>
                         </div>
                       </div>

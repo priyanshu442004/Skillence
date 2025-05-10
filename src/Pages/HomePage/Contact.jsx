@@ -31,7 +31,7 @@ const Contact = () => {
                   </p>
                 </div>
                 <span className="contact-email thq-body-small">
-                  info@companyname.com
+                  info@skillence.com
                 </span>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                   </p>
                 </div>
                 <span className="contact-phone thq-body-small">
-                  +1 (123) 456-7890
+                  +91 7017941890
                 </span>
               </div>
             </div>
@@ -59,12 +59,10 @@ const Contact = () => {
                 <div className="contact-content6">
                   <h3 className="contact-text7 thq-heading-3">Office</h3>
                   <p className="contact-text8 thq-body-large">
-                    Follow us on social media for updates and announcements.
+                     We're a remote-first team working from various cities across India.
                   </p>
                 </div>
-                <span className="contact-address thq-body-small">
-                  123 Main Street, City, Country
-                </span>
+               
               </div>
             </div>
           </div>
