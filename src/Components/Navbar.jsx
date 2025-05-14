@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/Logo.png";
 import { IoCallOutline } from "react-icons/io5";
+import RequestCallbackModal from "./RequestCallbackModal";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const[isModalOpen, setIsModalOpen] = useState(false);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navLinks = [
     { name: "Home", path: "/" },
@@ -44,7 +46,11 @@ const Navbar = () => {
               ))}
             </nav>
             <div className="navbar-buttons">
-              <button className="navbar-action1 thq-button-animated thq-button-filled">
+              <button
+              onClick={() => {
+                setIsModalOpen(true);
+              }}
+              className="navbar-action1 thq-button-animated thq-button-filled">
                 <span>
                   <IoCallOutline size={20} />
                 </span>
@@ -102,16 +108,25 @@ const Navbar = () => {
                   ))}
                 </nav>
               </div>
-              <div className="navbar-buttons1 thq-button-filled">
+              <div className="navbar-buttons1 thq-button-filled thq-button-animated thq-body-small">
                
                   <IoCallOutline size={20} /> 
                 
-                <button className="thq-button-filled" style={{paddingLeft:0}}>Request call back</button>
+                <button
+                onClick={() => {
+                  setIsModalOpen(true);
+                  setMobileMenuOpen(false);
+                }}
+                className="" style={{paddingLeft:0}}>Request call back</button>
               </div>
             </div>
           )}
         </header>
       </header>
+      <RequestCallbackModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </div>
   );
 };
