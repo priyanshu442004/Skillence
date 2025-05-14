@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import Internship from './Pages/Internship/Internship';
 import Hackathon from './Pages/Hackathon/Hackathon';
 import Contact from './Pages/Contact-Us/Contact';
-import About from './Pages/About-Us/About';
+import AboutUs from './Pages/About-Us/AboutUs';
 import FAQs from './Pages/FAQ/FAQs';
 import PrivacyPolicy from './Pages/Privacy-Policy & Terms/PrivacyPolicy';
 import Terms from './Pages/Privacy-Policy & Terms/Terms';
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/internship" element={<Internship />} />
         <Route path="/hackathon" element={<Hackathon />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/about-us" element={<About />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/FAQs" element={<FAQs />} />
         <Route path="/Privacy-Policy" element={<PrivacyPolicy />} />
         <Route path="/Terms-of-service" element={<Terms />} />
