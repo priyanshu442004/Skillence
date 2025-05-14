@@ -10,10 +10,12 @@ import AboutUs from './Pages/About-Us/AboutUs';
 import FAQs from './Pages/FAQ/FAQs';
 import PrivacyPolicy from './Pages/Privacy-Policy & Terms/PrivacyPolicy';
 import Terms from './Pages/Privacy-Policy & Terms/Terms';
+import ScrollToTop from './Components/ScrollToTop';
 const App = () => {
   return (
     <div>
     <Router>
+      <ScrollToTop />
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
