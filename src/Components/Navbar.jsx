@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/Logo.png";
+import { IoCallOutline } from "react-icons/io5";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -44,11 +45,12 @@ const Navbar = () => {
             </nav>
             <div className="navbar-buttons">
               <button className="navbar-action1 thq-button-animated thq-button-filled">
-                <span className="thq-body-small">Login</span>
+                <span>
+                  <IoCallOutline size={20} />
+                </span>
+                <span className="thq-body-small">Request call back from us</span>
               </button>
-              <button className="navbar-action2 thq-button-outline thq-button-animated">
-                <span className="thq-body-small">Register</span>
-              </button>
+              
             </div>
           </div>
           <div
@@ -93,9 +95,11 @@ const Navbar = () => {
                   <span className="thq-link thq-body-small">Contact Us</span>
                 </nav>
               </div>
-              <div className="navbar-buttons1">
-                <button className="thq-button-filled">Login</button>
-                <button className="thq-button-outline">Register</button>
+              <div className="navbar-buttons1 thq-button-filled">
+               
+                  <IoCallOutline size={20} /> 
+                
+                <button className="thq-button-filled" style={{paddingLeft:0}}>Request call back</button>
               </div>
             </div>
           )}

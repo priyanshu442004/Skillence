@@ -423,6 +423,7 @@
         white-space: nowrap;
         border-color: var(--dl-color-theme-primary1);
         border-width: 1px;
+        border-radius: 25%;
         padding-left: var(--dl-space-space-oneandhalfunits);
         border-radius: var(--dl-radius-radius-buttonradius);
         padding-right: var(--dl-space-space-oneandhalfunits);
@@ -788,6 +789,7 @@
         overflow: hidden;
         position: relative;
         border-width: 2px;
+        border-radius: 25px;
       }
       .thq-button-animated:before {
         top: 0;
