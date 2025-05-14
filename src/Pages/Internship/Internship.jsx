@@ -50,7 +50,8 @@ const Internship = () => {
               <p className="text-sm text-slate-600 mb-6">
                 {internship.description}
               </p>
-              <button className="w-full py-2 px-4 bg-pink-600 text-white rounded-lg font-medium hover:bg-pink-700 transition-all">
+              <button
+               className="w-full py-2 px-4 bg-[#ED2A4F] text-white rounded-lg font-medium hover:bg-red-600 transition-all">
                 Apply Now
               </button>
             </div>

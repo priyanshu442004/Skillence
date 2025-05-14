@@ -7,6 +7,7 @@ import Internship from './Pages/Internship/Internship';
 import Hackathon from './Pages/Hackathon/Hackathon';
 import Contact from './Pages/Contact-Us/Contact';
 import About from './Pages/About-Us/About';
+import FAQs from './Pages/FAQ/FAQs';
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/hackathon" element={<Hackathon />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/about-us" element={<About />} />
+        <Route path="/FAQs" element={<FAQs />} />
       </Routes>
     <Footer/>
     </Router>
