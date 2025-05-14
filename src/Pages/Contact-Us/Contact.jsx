@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
 
       <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
-        {/* Contact Form */}
+       
         <form className="bg-pink-50 p-8 rounded-2xl shadow-md space-y-6">
           <div>
             <label className="block text-sm font-medium text-slate-700 mb-1">Name</label>
@@ -29,12 +29,12 @@ const Contact = () => {
             <label className="block text-sm font-medium text-slate-700 mb-1">Message</label>
             <textarea rows="4" placeholder="How can we help you?" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
           </div>
-          <button type="submit" className="w-full bg-pink-600 text-white py-2 rounded-md hover:bg-pink-700 transition duration-300">
+          <button type="submit" className="w-full bg-[#ED2A4F] text-white py-2 rounded-2xl hover:bg-pink-700 transition duration-300">
             Send Message
           </button>
         </form>
 
-        {/* Contact Info Cards */}
+        
         <div className="space-y-6">
           <div className="flex items-start gap-4 bg-white border border-gray-200 p-6 rounded-xl shadow-sm hover:shadow-md transition">
             <Mail className="w-6 h-6 text-pink-600 mt-1" />
