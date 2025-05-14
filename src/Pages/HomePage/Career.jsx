@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Career = () => {
+  const navigate=useNavigate();
   return (
     <div className="home-pricing">
             <div className="pricing-pricing23 thq-section-padding">
@@ -30,8 +32,12 @@ const Career = () => {
                     <span className="thq-body-small">From below</span>
                   </button>
                 </div>
-                <div className="pricing-content1">
-                  <div className="pricing-column thq-card">
+                <div
+                
+                className="pricing-content1">
+                  <div
+                  onClick={()=>navigate("/internship")}
+                  className="pricing-column thq-card">
                     <div className="pricing-price">
                       <div className="pricing-price01">
                         <p className="pricing-text07 thq-body-large">
@@ -93,7 +99,9 @@ const Career = () => {
                       <span className="thq-body-small">Apply</span>
                     </button>
                   </div>
-                  <div className="pricing-column1 thq-card">
+                  <div
+                  onClick={()=>navigate("/hackathon")}
+                  className="pricing-column1 thq-card">
                     <div className="pricing-price02">
                       <div className="pricing-price03">
                         <p className="pricing-text14 thq-body-large">

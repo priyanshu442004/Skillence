@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <div className="home-steps">
       <div className="steps-container thq-section-padding">
@@ -19,7 +21,9 @@ const About = () => {
               </p>
               <div className="steps-actions">
                 <button className="thq-button-animated thq-button-filled steps-button">
-                  <span className="thq-body-small">Main action</span>
+                  <span
+                  onClick={()=>navigate("/internship")}
+                  className="thq-body-small">Apply</span>
                 </button>
               </div>
             </div>

@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Feature2 = () => {
+
+  const navigate=useNavigate();
   return (
     <div>
       <div className="home-cta">
@@ -22,6 +25,7 @@ const Feature2 = () => {
                   </div>
                   <div className="cta-actions">
                     <button
+                      onClick={() => navigate("/internship")}
                       type="button"
                       className="thq-button-filled cta-button"
                     >
