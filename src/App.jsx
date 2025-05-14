@@ -11,6 +11,7 @@ import FAQs from './Pages/FAQ/FAQs';
 import PrivacyPolicy from './Pages/Privacy-Policy & Terms/PrivacyPolicy';
 import Terms from './Pages/Privacy-Policy & Terms/Terms';
 import ScrollToTop from './Components/ScrollToTop';
+import NotFound from './Pages/Not-Found/NotFound';
 const App = () => {
   return (
     <div>
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/FAQs" element={<FAQs />} />
         <Route path="/Privacy-Policy" element={<PrivacyPolicy />} />
         <Route path="/Terms-of-service" element={<Terms />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     <Footer/>
     </Router>
