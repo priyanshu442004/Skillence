@@ -88,11 +88,18 @@ const Navbar = () => {
                   </div>
                 </div>
                 <nav className="navbar-links1">
-                  <span className="thq-link thq-body-small">Home</span>
-                  <span className="thq-link thq-body-small">Internships</span>
-                  <span className="thq-link thq-body-small">Hackathons</span>
-                  <span className="thq-link thq-body-small">About Us</span>
-                  <span className="thq-link thq-body-small">Contact Us</span>
+                  {navLinks.map((link, index) => (
+                    <span
+                      key={index}
+                      className="thq-link thq-body-small"
+                      onClick={() => {
+                        navigate(link.path);
+                        setMobileMenuOpen(false);
+                      }}
+                    >
+                      {link.name}
+                    </span>
+                  ))}
                 </nav>
               </div>
               <div className="navbar-buttons1 thq-button-filled">

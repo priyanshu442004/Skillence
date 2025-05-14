@@ -1,0 +1,15 @@
+
+
+import React from "react";
+
+export const Card = ({ children, className = "" }) => {
+  return (
+    <div className={`rounded-2xl border p-4 shadow-md bg-white ${className}`}>
+      {children}
+    </div>
+  );
+};
+
+export const CardContent = ({ children }) => {
+  return <div className="p-2">{children}</div>;
+};
