@@ -166,7 +166,7 @@ const Footer = () => {
           <div className="footer-credits">
             <div className="thq-divider-horizontal"></div>
             <div className="footer-row">
-              <span className="thq-body-small hover:text-red-600 hover:cursor-pointer">
+              <span className="thq-body-small">
                 &copy; 2025 Skillence. All rights reserved.
               </span>
               <div className="footer-footer-links2">
