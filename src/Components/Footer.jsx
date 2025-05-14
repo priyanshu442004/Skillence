@@ -170,8 +170,12 @@ const Footer = () => {
                 &copy; 2025 Skillence. All rights reserved.
               </span>
               <div className="footer-footer-links2">
-                <span className="thq-body-small hover:text-red-600 hover:cursor-pointer hover:cursor-pointer hover:text-red-600">Privacy Policy</span>
-                <span className="thq-body-small hover:text-red-600 hover:cursor-pointer hover:cursor-pointer hover:text-red-600">Terms of Service</span>
+                <span 
+                onClick={() => navigate("/privacy-policy")}
+                className="thq-body-small hover:text-red-600 hover:cursor-pointer hover:cursor-pointer hover:text-red-600">Privacy Policy</span>
+                <span
+                onClick={() => navigate("/terms-of-service")}
+                className="thq-body-small hover:text-red-600 hover:cursor-pointer hover:cursor-pointer hover:text-red-600">Terms of Service</span>
               </div>
             </div>
           </div>

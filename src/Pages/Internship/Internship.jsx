@@ -51,7 +51,7 @@ const Internship = () => {
                 {internship.description}
               </p>
               <button
-               className="w-full py-2 px-4 bg-[#ED2A4F] text-white rounded-lg font-medium hover:bg-red-600 transition-all">
+               className="w-full py-2 px-4 navbar-action1 thq-button-animated thq-button-filled thq-body-small">
                 Apply Now
               </button>
             </div>
