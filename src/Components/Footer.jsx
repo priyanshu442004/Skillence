@@ -15,7 +15,7 @@ const Footer = () => {
                 width={150}
                 className="footer-image1"
               />
-              <span className="thq-body-small hover:text-red-600 hover:cursor-pointer">
+              <span className="thq-body-small">
                 Subscribe to our newsletter for the latest updates on new{' '}
                 <b>
 
@@ -39,7 +39,7 @@ const Footer = () => {
                     <span className="thq-body-small hover:text-red-600 hover:cursor-pointer">Subscribe</span>
                   </button>
                 </div>
-                <span className="footer-content2 thq-body-small hover:text-red-600 hover:cursor-pointer">
+                <span className="footer-content2 thq-body-small">
                   Stay updated with our latest news and events by subscribing to
                   our newsletter.
                 </span>
