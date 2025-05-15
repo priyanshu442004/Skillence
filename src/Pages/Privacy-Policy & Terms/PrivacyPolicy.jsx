@@ -74,7 +74,7 @@ const PrivacyPolicy = () => {
 
         <div className="border-t pt-6 mt-12 text-sm text-center text-slate-500">
           If you have any questions about this policy, please contact us at{" "}
-          <span className="text-pink-600 font-medium">info@skillence.com</span>
+          <span className="text-pink-600 font-medium">skillence.team@gmail.com</span>
         </div>
       </div>
     </div>

@@ -31,7 +31,7 @@ const Contact = () => {
                   </p>
                 </div>
                 <span className="contact-email thq-body-small">
-                  info@skillence.com
+                  skillence.team@gmail.com
                 </span>
               </div>
             </div>

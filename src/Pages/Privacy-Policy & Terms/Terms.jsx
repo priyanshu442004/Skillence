@@ -57,7 +57,7 @@ const Terms = () => {
 
        
         <div className="border-t pt-6 mt-12 text-sm text-center text-slate-500">
-          For questions regarding these terms, contact us at <span className="text-pink-600 font-medium">support@yourdomain.com</span>
+          For questions regarding these terms, contact us at <span className="text-pink-600 font-medium">skillence.team@gmail.com</span>
         </div>
       </div>
     </div>

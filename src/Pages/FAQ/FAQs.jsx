@@ -49,7 +49,7 @@ const faqs = [
 },
 {
   question: "Do you offer group discounts for interviews?",
-  answer: "Yes, if you're booking multiple interviews as a group (3+ people), we do offer discounted pricing. Contact us for details at info@skillence.com or directly call at 7017941890.",
+  answer: "Yes, if you're booking multiple interviews as a group (3+ people), we do offer discounted pricing. Contact us for details at skillence.team@gmail.com or directly call at 7017941890.",
 },
 {
   question: "Can I list this experience on my resume or LinkedIn?",
@@ -61,7 +61,7 @@ const faqs = [
 },
 {
   question: "How do I contact support?",
-  answer: "You can reach our support team via email at info@skillence.com or call us at 7017941890. We are here to help you with any queries or issues.",
+  answer: "You can reach our support team via email at skillence.team@gmail.com or call us at 7017941890. We are here to help you with any queries or issues.",
 },
 {
   question: "What if I miss a session or deadline?",

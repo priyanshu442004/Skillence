@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 import emailjs from '@emailjs/browser';
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const formRef = useRef();
@@ -17,9 +18,11 @@ const Contact = () => {
     )
     .then(() => {
       setStatus('SUCCESS');
+      toast.success('Message sent successfully!');
       formRef.current.reset();
     })
     .catch(() => {
+      toast.error('Failed to send message. Please try again later.');
       setStatus('FAILED');
     });
   };
@@ -79,16 +82,7 @@ const Contact = () => {
             Send Message
           </button>
 
-          {status === "SUCCESS" && (
-            <p className="text-green-600 text-center mt-3">
-              Message sent successfully!
-            </p>
-          )}
-          {status === "FAILED" && (
-            <p className="text-red-600 text-center mt-3">
-              Oops! Something went wrong. Please try again.
-            </p>
-          )}
+          
         </form>
 
         <div className="space-y-6">
@@ -96,7 +90,7 @@ const Contact = () => {
             <Mail className="w-6 h-6 text-pink-600 mt-1" />
             <div>
               <h3 className="font-semibold text-slate-800">Email Us</h3>
-              <p className="text-sm text-slate-600">info@skillence.com</p>
+              <p className="text-sm text-slate-600">skillence.team@gmail.com</p>
             </div>
           </div>
 
