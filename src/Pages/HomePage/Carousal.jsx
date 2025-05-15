@@ -1,13 +1,18 @@
 import React from 'react'
-
+import img1 from "../../assets/img1.jfif"
+import img2 from "../../assets/img2.jfif"
+import img3 from "../../assets/img3.jfif"
+import img4 from "../../assets/img4.jfif"
+import img5 from "../../assets/img5.jfif"
+import img6 from "../../assets/img6.jfif"
 const Carousal = () => {
 const imageUrls = [
-  "https://images.unsplash.com/photo-1490645935967-10de6ba17061?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0Njc3NTgxMnw&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1525498128493-380d1990a112?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0Njc3NTgxM3w&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0Njc3NTgxM3w&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0Njc3NTgxNHw&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1460518451285-97b6aa326961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0Njc3NTgxMXw&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1474557157379-8aa74a6ef541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0Njc3NTgxM3w&ixlib=rb-4.1.0&q=80&w=1080",
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
 ]
   return (
     <div className="hero-content1">

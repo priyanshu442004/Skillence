@@ -20,9 +20,11 @@ const About = () => {
                 tech. 💻
               </p>
               <div className="steps-actions">
-                <button className="thq-button-animated thq-button-filled steps-button">
+                <button
+                 onClick={()=>navigate("/internship")}
+                className="thq-button-animated thq-button-filled steps-button">
                   <span
-                  onClick={()=>navigate("/internship")}
+                 
                   className="thq-body-small">Apply</span>
                 </button>
               </div>
