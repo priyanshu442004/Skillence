@@ -1,50 +1,70 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../assets/Logo.png";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
+import emailjs from "@emailjs/browser";
+
 const Footer = () => {
+   const [email, setEmail] = useState("");
   const navigate=useNavigate();
+
+   const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!email) {
+      toast.error("Please enter a valid email address.");
+      return;
+    }
+
+    const templateParams = {
+      from_email: email,
+      message: `${email} Request to subscribe to newsletter`,
+    };
+
+    emailjs.send('service_5w0y969', 'template_meaiok7', templateParams, 'kvOwKjPDsFKEUJomg')
+      .then(() => {
+        toast.success("Subscription request sent successfully!");
+        setEmail(""); // Clear input
+      })
+      .catch(() => {
+       toast.error("Failed to send subscription request. Please try again later.");
+      });
+  };
+
   return (
     <div className="home-footer">
       <footer className="footer-footer1 thq-section-padding">
         <div className="footer-max-width thq-section-max-width">
           <div className="footer-content">
-            <div className="footer-newsletter">
-              <img
-                alt="Company Logo"
-                src={Logo}
-                width={150}
-                className="footer-image1"
-              />
-              <span className="thq-body-small">
-                Subscribe to our newsletter for the latest updates on new{' '}
-                <b>
-
-                Internships{' '} 
-                </b>
-                   and {' '}
-                <b>
-                  Hackathons.
-                  </b>
-              </span>
-              <div className="footer-actions">
-                <div className="footer-form">
-                  <div className="footer-container">
-                    <input
-                      type="email"
-                      placeholder="Enter your email"
-                      className="footer-text-input thq-input"
-                    />
-                  </div>
-                  <button className="thq-button-outline footer-button">
-                    <span className="thq-body-small hover:text-red-600 hover:cursor-pointer">Subscribe</span>
-                  </button>
-                </div>
-                <span className="footer-content2 thq-body-small">
-                  Stay updated with our latest news and events by subscribing to
-                  our newsletter.
-                </span>
-              </div>
-            </div>
+             <div className="footer-newsletter">
+      <img alt="Company Logo" src={Logo} width={150} className="footer-image1" />
+      <span className="thq-body-small">
+        Subscribe to our newsletter for the latest updates on new{" "}
+        <b>Internships </b> and <b>Hackathons.</b>
+      </span>
+      <div className="footer-actions">
+        <form className="footer-form" onSubmit={handleSubmit}>
+          <div className="footer-container">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="footer-text-input thq-input"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <button type="submit" className="thq-button-outline footer-button">
+            <span className="thq-body-small hover:text-red-600 hover:cursor-pointer">
+              Subscribe
+            </span>
+          </button>
+        </form>
+        <span className="footer-content2 thq-body-small">
+          Stay updated with our latest news and events by subscribing to our newsletter.
+        </span>
+      </div>
+    </div>
             <div className="footer-links">
               <div className="footer-column1">
                 <strong className="thq-body-large footer-column1-title">
