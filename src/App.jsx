@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/HomePage/Home';
 import Navbar from './Components/Navbar';
@@ -13,6 +13,19 @@ import Terms from './Pages/Privacy-Policy & Terms/Terms';
 import ScrollToTop from './Components/ScrollToTop';
 import NotFound from './Pages/Not-Found/NotFound';
 const App = () => {
+   useEffect(() => {
+    const handleContextMenu = (e) => {
+      e.preventDefault(); // disables right-click
+    };
+
+     document.addEventListener('contextmenu', handleContextMenu);
+
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+    };
+  }, []);
+
+
   return (
     <div>
     <Router>
