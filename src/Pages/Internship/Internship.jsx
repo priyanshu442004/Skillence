@@ -25,6 +25,8 @@ const internships = [
 ];
 
 const Internship = () => {
+  const linkToForm="https://forms.gle/KhfS727XyiRX3pCk6"
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-fuchsia-50 to-white px-6 py-16">
       <div className="max-w-7xl mx-auto text-center">
@@ -51,6 +53,7 @@ const Internship = () => {
                 {internship.description}
               </p>
               <button
+                onClick={() => window.open(linkToForm, "_blank")}
                className="w-full py-2 px-4 navbar-action1 thq-button-animated thq-button-filled thq-body-small">
                 Apply Now
               </button>

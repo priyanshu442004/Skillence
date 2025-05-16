@@ -2,7 +2,7 @@ import React from "react";
 import { Users, Target, Clock } from "lucide-react";
 
 const Hackathon = () => {
-  const whatsappLink = "https://wa.me/your_group_invite_link"; // Replace with your actual group link
+  const whatsappLink = "https://chat.whatsapp.com/HQew2wiboKd157gwDyYafd"; 
 
   return (
     <div className="min-h-screen bg-white px-4 py-16 sm:px-6 lg:px-8">
