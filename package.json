@@ -2,7 +2,8 @@
   "name": "skillence",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://priyanshu442004.github.io/Skillence",
+ "homepage": "https://skillence.github.io",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
